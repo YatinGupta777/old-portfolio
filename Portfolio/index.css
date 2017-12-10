@@ -1,0 +1,118 @@
+body{
+	 padding-top: 70px; 
+}
+#aboutMe{
+	font-size: 1.5em;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #3f68aa;
+	padding: 2px 2px;
+}
+#myImg{
+	height: 100%;
+	border-radius: 100%;
+	padding-top: 4%;
+}
+#text{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#Skills{
+	text-align: center;
+	background-color: #e0d0c3;
+}
+#Skills img{
+	width : 20%;
+	height: 20%;
+	border-radius: 100%;
+}
+.skillsHeading{
+	text-align: left;
+	font-size: 1.5em;
+	font-family: 'Roboto Slab', serif;
+	margin-left: 1%;
+	margin-top: 1%;
+
+}
+#bootstrap{
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+#django{
+	margin-left: 25%;
+}
+#Projects{
+	font-size: 1.3em;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 2% 0 2% 0;
+	background-color: #d3dbe8;
+}
+#androidImg{
+	height:50%;
+	width: 50%;
+}
+#webImg{
+	height:50%;
+	width: 50%;
+}
+
+#hobbies{
+	text-align:center;
+}
+hr {
+color: #123455;
+background-color: #123455;
+border: none;
+height: 2px;
+margin: 0 0;
+}
+
+#meImage{
+	border-radius: 100%;
+}
+#Contact{
+	text-align: center;
+}
+#ContactText{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.icon{
+padding-top: 2%;
+}
+#Others {
+	font-size: 1.5em;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	background-color: #eef280;
+	padding: 2% 0 2% 0;
+}
+#hackerrank{
+	border: 1px solid black;
+	background-color: #7bf248;
+	width: 80%;
+	margin-left: 10%;
+}
+h2{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	text-align: center;
+	background: #d1c5a9;
+	padding: 8px 0 8px 0;
+	margin: 0 auto 0 auto;
+	width:100%;
+}
+table{
+	width: 100%;
+}
+.nav{
+	text-transform: uppercase;
+
+}
+.Name{
+	text-transform: uppercase;
+	text-decoration: underline;	
+}

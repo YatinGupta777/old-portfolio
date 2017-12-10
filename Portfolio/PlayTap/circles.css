@@ -1,0 +1,36 @@
+canvas{
+	width:100%;
+	background: black; 
+}
+
+body,html{
+
+	height: 100%;
+	margin:0;
+}
+
+h1{
+	text-align: center;
+	background: black;
+	margin:0 0;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Calligraffitti";
+
+}
+span{
+	color: red;
+	font-family: roboto;
+}
+#first{
+	margin-right: 120px;
+}
+#second{
+	margin-left: 100px;
+}
+#third{
+	font-size: 13px;
+	float: right;
+	color: purple;
+	padding-top: 20px;
+}
