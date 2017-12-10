@@ -84,9 +84,6 @@ margin: 0 0;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
-.icon{
-padding-top: 2%;
-}
 #Others {
 	font-size: 1.5em;
 	font-family: 'Roboto Slab', serif;
@@ -119,10 +116,6 @@ h2{
 	margin: 0 auto 0 auto;
 	width:100%;
 }
-table{
-	width: 100%;
-}
-
 .nav{
 	text-transform: uppercase;
 
