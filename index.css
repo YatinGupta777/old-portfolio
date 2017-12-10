@@ -104,6 +104,11 @@ margin: 0 0;
 	background-color: #e8bc96;
 	padding: 2% 0 2% 0;
 }
+.Ounderlined{
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-style: italic;
+}
 a{
 	color: #000000;
 }
