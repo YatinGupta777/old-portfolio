@@ -9,6 +9,11 @@ body{
 	background-color: #3f68aa;
 	padding: 2px 2px;
 }
+#cgpa{
+	text-shadow: 1px 1px #000000;
+	font-weight: 900;
+
+}
 #myImg{
 	height: 100%;
 	border-radius: 100%;
