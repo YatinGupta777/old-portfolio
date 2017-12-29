@@ -23,3 +23,8 @@ a:active {
     color: blue;
 }
 
+@media only screen and (max-width: 500px) {
+    #spacing{
+    	padding: 5% 3%;
+    }
+}
