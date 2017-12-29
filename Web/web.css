@@ -1,5 +1,5 @@
 body{
-	padding: 5% 10% 20% 10%;
+	padding-top: 5%;
 	font-family: 'Roboto Slab', serif;
 }
 h2{
@@ -22,3 +22,4 @@ a:hover {
 a:active {
     color: blue;
 }
+
