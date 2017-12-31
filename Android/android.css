@@ -1,3 +1,16 @@
 body{
-	padding: 5% 10% 20% 10%;
+	padding: 5% 0 10% 0;
+}
+img{
+	align: center;
+}
+img{
+	height: 30%;
+	width: 30%;
+}
+@media only screen and (max-width: 500px) {
+    img{
+    	height:30%;
+    	width:30%;
+    }
 }
