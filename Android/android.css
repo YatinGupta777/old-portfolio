@@ -1,16 +1,11 @@
 body{
-	padding: 5% 0 10% 0;
+	padding-top: 5%;
+	font-family: 'Roboto Slab', serif;
 }
-img{
-	align: center;
+h2{
+	text-transform: uppercase;
+	font-size: 1.2em;
 }
-img{
-	height: 30%;
-	width: 30%;
-}
-@media only screen and (max-width: 500px) {
-    img{
-    	height:30%;
-    	width:30%;
-    }
+#Images{
+	font-size: 1.2em;
 }
