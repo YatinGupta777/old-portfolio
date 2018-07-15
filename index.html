@@ -14,7 +14,8 @@
 	<title>My Portfolio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
@@ -38,8 +39,8 @@
       <ul class="navbar-nav mr-auto nav nav-tabs">
         <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
         <li class="nav-item"><a  class="nav-link" href="#Projects">Projects</a></li>
-        <li class="nav-item"><a  class="nav-link" href="Android/android.html"><i class="fa fa-android" aria-hidden="true"></i></a></li>
-        <li class="nav-item"><a  class="nav-link" href="Web/web.html"><i class="fa fa-chrome" aria-hidden="true"></i></a></li>
+        <li class="nav-item"><a  class="nav-link" href="Android/android.html"><i class="fab fa-android" aria-hidden="true"></i></a></li>
+        <li class="nav-item"><a  class="nav-link" href="Web/web.html"><i class="fab fa-chrome" aria-hidden="true"></i></a></li>
         <li class="nav-item"><a  class="nav-link" href="#Others">Other</a></li>
         <li class="nav-item"><a  class="nav-link"href="#Contact">Contact</a></li>
      </ul>
@@ -58,10 +59,12 @@
       <p >Pursuing <i class="fa fa-graduation-cap" aria-hidden="true"></i>Software Engineering From Delhi Technological University(Formerly Delhi College of Engineering),Full Stack Web Developer,did basic android,know some general programming languages and have a passion to learn new things</p>
       <p id="cgpa">CGPA : 8.75</p> 
       <div id="hobbies">
-      <a href="https://www.goodreads.com/user/show/80010443-yatin-gupta"><button class="btn btn-primary">Avid Reader</button></a>
-      <button class="btn btn-primary">Sports Enthusiast</button>
-      <button class="btn btn-primary">Binge Watcher</button>
-      <a href="https://fortnitetracker.com/profile/pc/Yat777"><button class="btn btn-primary"><i class="fa fa-gamepad fa-2x" aria-hidden="true"></i></button></a>
+        <span id="Co-curriculars">Co-curriculars :</span>
+      <a href="https://www.goodreads.com/user/show/80010443-yatin-gupta"><i class="fas fa-book-open fa-2x"></i></a>
+      <i class="fas fa-swimmer fa-2x"></i>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUlSURBVGhD7ZlVqHVFGIaPgYmJrRgYiN2iFzYIKiqKjRfWhX0j1oWgiIEo2IUo3lgYYGBgY3d3t5jY7fPofuFz/Xvtc/6DJ9bhvPDw7zP/7FnzzrxrZtbaQ9OaItoOnoEf4CnYFkaj2WFHuARehC/hN/gIHoaTYF0YE20Nf8Jf5d/fYROYGe0Jb4DfH45bYG34X7QV3Ah22sZvB0fUUfPv62EkmguuhHTydTgG1oFz4D34EPaFs+BrsN7PsB+MSvPAQfA85MI/QcwcD3bAz4/CcFoAHgLrfwcXw1uwLJwCxnRhOBpegaXgQngHMvvHwYhlw6fBF+CXxVE6FhaBPSBmEo/zYJA08QhY901YDdSh4Kg/DZqInCXLvVfmB6P4K2hoZxiozeA6SCflq96/L8MSENlw6rwPi0GbNGGHUn9LiJwJR1xzDqCaBc6Gt8GZyXU17fddFGyzr26FXMg8XgHrwULglFtezbhSWWYH6kg2ZTxjwtlzpN+FlUETmQk7acyWA00YQWciMVsaLoMfwbZOhr5yKbWCjTRHt2lmcfBm9++joE2O7M0QE8uA8qb1HnkW6iAcBpYbQU1Emrf8XtgcbO8zmBVm0N1ghbase8GYsVNm1cYXhDYdAdYX94vImXD0MzMqcXKGmzFzJlzdErPnwDY3hhm0AXgz/QJ9naJqRs6HNs0BH4P1Lup9Xh1qnJwZzawCNU41ZppwkI1oYuZSb7tHQl/dD1Zw02vTCmAdZyQrTz+5bFvPNtVu8D0047Q/mPtmnIyZ5X5fE5ErZ5bi0y3oJ0fICkbGkZsTmjocrOM9Mki3gfX2+eevf9t7DTIzKnGy3JlZCVTi5OjXmM0GV0E2yXOhr2zgUrCSuLNWGbnsGztYMECfg/W2AE1ks3NmNLMG1DjVmNU4JWYmQROurrZn2yfAQHlx9xKn8FSwEeUNawOaabuPlDuy9b4FV0Nvzhqn3cEl/jGocToAvEebcXLRsP4d4L3nXmf7e8OwOhA8ifoFDV0NOV4Yr0GKEQfD5fpTWB+Us+6Z6iX4BBIzB8aZ8BRcVzPj5LVfAGfG+t5rf8CgTfg/8gjtRbPHiPdPHcV+cte1rjPiHrQ9xIztJU41ZjVOidmqoAnj5EwYM03Y9n0w03J18kJPwiEWDCNPuF7MmUykvKeMxxNQB8Jzm8v+A1DjZCIsvxM0obzpvwHbrsecMZUXE0c9q5On6BqzxMmHtLqaJU6WJ2aadCBt8yYYN8WIEairkzMTMzVOidlaUOOUmHk8sT2X6tYD41goRqQZJ1c/Y6O5GidP1C4wd0Hi5P/nSOIjcPaacZGdqEbcU1YElTgZkxqzxOlxSMzmBpfcmHCPGVflGGMkbuh99tmiuTolZhtCjVNi5gIwYSbUTmAH0uGc4dxX7OCiEFnX8ntAE86Y5688nToYE2JCnQF2wkPdfLApvNorE89Kzowdvqb3t0+inp182kw9zS0JEyKz/gHYEWNTH5tHivePx5hBx6Axl0+MtVOuQh7dfZXkW5OKs3Ftj8vBM9VGMOHaBTz0acDni71gXuiUqglPzEasc6omTrSgi5o2MVk0JUzsCp004Qrk8XobOBg6aWJ58BhuxyudM+GhzY57An2w99kjSGdUTXh6dYfO8dy3GZ1QPxM+d/ujpWU+Y0x6tZm4oFfmq6G8JJi0GokJ30JOak0JEyo/j3XahMqrSH8Q7awJ5a9PdtxnZ99odNKEynslDXTWRKQZfzI7E9a0YFrTGo2Ghv4GQvTzoImZTLAAAAAASUVORK5CYII=">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGzSURBVGhD7dlPK0RRGMfxS0qJEGVhaWdnwcbOyluQjT8LW4qdwgbvwBrZWFnKSvEGbJANKRZEoih/4vuMmTqdHjNnxpzmmTq/+tTMnWfu3F/3XuPOzVJSUipOB5Zwhnd8G/GFWQSlH5fQViQ+8Fgj95hGybTjClqBgmf0wHSWoW28bxGdNdCGoJxC23BLFlA0jZDjX3uzJTsoGjk/tDdak4pYE1xEzpOX/GOLgos8Qb4n5E+svxILyioisXqoRS3yiTtvWSzRiuyjC5Ih3EKbq5YoRWRPdMPNJLTZcrzhrz0cpYh8mJ9haLOhNtAMyShe4b4e7dAahJtVaHMhrtEEN+twZ6IVucEUZE+s4T//rx3Bj1x/uDPRilSTfBH3ws0e3Jm6KCLOMYYRbOWXueqmSCmpiDWpiDWpiDWpiDWpiDWpiDUmi1zgGP5VYDHmisgdsQZI+iAXaNqcz1QR2ehCiULklpo26zNV5AR+xqHN+kwVkZ+R3B8tZO8cQJv1mTtH5HNWMIPD/LIQ5opUqmSRFsh97IfcsyxrhbaiWttEycxh4vdhLvPYNWQbA0hJSQlOlv0AZRUEaoH8ItQAAAAASUVORK5CYII=">
+      <a href="https://fortnitetracker.com/profile/pc/Yat777"><i class="fa fa-gamepad fa-2x" aria-hidden="true"></i></a>
       </div>
       </div>
     </div>
@@ -100,7 +103,7 @@
       <br>
       <div class="row">
         <div class="col col-sm-4">
-          <i class="fa fa-android fa-2x" aria-hidden="true"></i>
+          <i class="fab fa-android fa-3x"></i>
         <span class="skillsHeading ">Android(Basic):</span>
         </div>
         
@@ -122,13 +125,13 @@
     <div class="row">
       <div class="col col-sm-6">
         <a href="Android/android.html" class="android">Link To Android Projects
-        <i class="fa fa-android fa-5x" aria-hidden="true"></i>
+       <i class="fab fa-android fa-5x"></i>
         </a>
      </div> 
      
       <div class="col col-sm-6">
         <a href="Web/web.html" class="web">Link To Web Projects
-       <i class="fa fa-chrome fa-5x" aria-hidden="true"></i>
+       <i class="fab fa-chrome fa-5x" aria-hidden="true"></i>
        </a>
       </div>
     </div>
@@ -169,13 +172,13 @@
 <i class="fa fa-envelope" aria-hidden="true"></i> Email : yatingupta777@yahoo.in
   <div class="row">
     <div class="col col-sm-4">
-    <a href="https://www.facebook.com/yatin.gupta.92"><i class="fa fa-facebook-official fa-3x"  aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/yatin.gupta.92"><i class="fab fa-facebook fa-3x"></i></i></a>
     </div>
     <div class="col col-sm-4">
-    <a href="https://github.com/YatinGupta777"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+    <a href="https://github.com/YatinGupta777"><i class="fab fa-github fa-3x" aria-hidden="true"></i></a>
     </div>
     <div class="col col-sm-4">
-    <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin fa-3x"></i></a>
     </div>
   </div>
 </div>

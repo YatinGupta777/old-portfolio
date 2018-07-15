@@ -71,6 +71,11 @@ body{
 #hobbies{
 	text-align:center;
 }
+#Co-curriculars{
+	font-size: 1.3em;
+	font-family: 'Roboto Slab', serif;
+	background-color: #d3dbe8;
+}
 hr {
 color: #123455;
 background-color: #123455;
