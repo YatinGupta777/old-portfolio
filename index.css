@@ -19,29 +19,29 @@ body{
 	padding-left: 20%;
 	font-weight: 50;
 	font-size: 150%;
-	text-decoration: underline;
+	
 }
 #LinkedIn{
-	padding-left: 15%;
+	text-decoration: underline;
 }
 #Github{
-	padding-left: 15%;
+	text-decoration: underline;
 }
 #Otherlinks{
 	text-align: left;
 	padding-left: 20%;
 	font-weight: 50;
 	font-size: 100%;
+
+}
+#underline{
 	text-decoration: underline;
 }
-#InterviewBit{
-	padding-left: 10%;
-}
 #Android{
-	padding-left: 10%;
+	
 }
 #chrome{
-	padding-left: 10%;
+	
 }
 #email{
 	text-align: left;
