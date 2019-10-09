@@ -1,13 +1,17 @@
 body{
 	 padding-top: 2%; 
 }
-
+#name{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+}
 #aboutMe{
 	text-align: center;
 }
 #myImg{
-	height: 80%;
-	width:80%;
+	height: 60%;
+	width: 	60%;
 	border-radius: 100%;
 }
 #aboutMeText{
