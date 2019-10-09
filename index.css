@@ -1,81 +1,52 @@
 body{
-	 padding-top: 70px; 
+	 padding-top: 2%; 
 }
-#aboutMe{
-	font-size: 1.5em;
-	font-family: 'Roboto Slab', serif;
-	text-align: center;
-	text-transform: uppercase;
-	background-color: #3f68aa;
-	padding: 2px 2px;
-}
-#cgpa{
-	text-shadow: 1px 1px #000000;
-	font-weight: 900;
 
+#aboutMe{
+	text-align: center;
 }
 #myImg{
-	height: 100%;
+	height: 80%;
+	width:80%;
 	border-radius: 100%;
-	padding-top: 4%;
 }
-#text{
-	padding-left: 2%;
-	padding-right: 2%;
+#aboutMeText{
+	font-family: cursive;
+	font-size: 150%;
 }
-#Skills{
-	text-align: center;
-	background-color: #e0d0c3;
-}
-#Skills ul{
-	padding-top: 2%;
-}
-#Skills li{
-	font-size: 1.3em;
-	font-family: 'Roboto Slab', serif;
-	font-weight: 900;
-	text-shadow: 2px 2px #ffffff;
-}
-.skillsHeading{
+#links{
 	text-align: left;
-	font-size: 1.3em;
-	font-family: 'Roboto Slab', serif;
-	margin-left: 1%;
-	margin-top: 1%;
+	padding-left: 20%;
+	font-weight: 50;
+	font-size: 150%;
+	text-decoration: underline;
+}
+#Otherlinks{
+	text-align: left;
+	padding-left: 20%;
+	font-weight: 50;
+	font-size: 100%;
+	text-decoration: underline;
+}
+#InterviewBit{
+	padding-left: 20%;
+}
+#icons{
+	text-align: left;
+	padding-left: 20%;
+}
+#chrome{
+	padding-left: 20%;
+}
+#email{
+	text-align: left;
+	padding-left: 20%;
+	font-weight: 50;
+	font-size: 100%;
+	padding-top: 3%;
+	text-decoration: underline;
+}
 
-}
-#bootstrap{
-	margin-left: 5%;
-	margin-bottom: 5%;
-}
-#django{
-	margin-left: 25%;
-}
-#Projects{
-	font-size: 1.3em;
-	font-family: 'Roboto Slab', serif;
-	text-align: center;
-	text-transform: uppercase;
-	padding: 2% 0 2% 0;
-	background-color: #d3dbe8;
-}
-#androidImg{
-	height:50%;
-	width: 50%;
-}
-#webImg{
-	height:50%;
-	width: 50%;
-}
-
-#hobbies{
-	text-align:center;
-}
-#Co-curriculars{
-	font-size: 1.3em;
-	font-family: 'Roboto Slab', serif;
-	background-color: #d3dbe8;
-}
 hr {
 color: #123455;
 background-color: #123455;
@@ -83,55 +54,7 @@ border: none;
 height: 2px;
 margin: 0 0;
 }
-
-#meImage{
-	border-radius: 100%;
-}
-#Contact{
-	text-align: center;
-}
-#ContactText{
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-#Others {
-	font-size: 1.5em;
-	font-family: 'Roboto Slab', serif;
-	text-align: center;
-	background-color: #f1fcc4;
-	padding: 2% 0 2% 0;
-}
-#hackerrank{
-	border: 1px solid black;
-	background-color: #dcf7c5;
-	width: 80%;
-	margin-left: 10%;
-}
-#Contact{
-	font-size: 1.5em;
-	font-family: 'Roboto Slab', serif;
-	text-align: center;
-	background-color: #e8bc96;
-	padding: 2% 0 2% 0;
-}
-.Ounderlined{
-	text-decoration: underline;
-	text-transform: uppercase;
-	font-style: italic;
-}
 a{
-	color: #000000;
+	color: #3f403f;
 }
-h2{
-	text-transform: uppercase;
-	font-size: 1.2em;
-	text-align: center;
-	background: #d1c5a9;
-	padding: 8px 0 8px 0;
-	margin: 0 auto 0 auto;
-	width:100%;
-}
-.nav{
-	text-transform: uppercase;
 
-}
