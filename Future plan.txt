@@ -1,0 +1,2 @@
+Future plan:
+Try out https://academic-demo.netlify.com/
