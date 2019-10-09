@@ -11,12 +11,13 @@ body{
 	border-radius: 100%;
 }
 #aboutMeText{
+	text-align: left;
 	font-family: cursive;
 	font-size: 150%;
 }
 #links{
 	text-align: left;
-	padding-left: 20%;
+	
 	font-weight: 50;
 	font-size: 150%;
 	
@@ -29,7 +30,6 @@ body{
 }
 #Otherlinks{
 	text-align: left;
-	padding-left: 20%;
 	font-weight: 50;
 	font-size: 100%;
 
@@ -39,18 +39,14 @@ body{
 }
 #icons{
 	text-align: left;
-	padding-left: 20%;
 	padding-top: 2%;
 }
 #Android{
-	
 }
 #chrome{
-	padding-left: 15%;
 }
 #email{
 	text-align: left;
-	padding-left: 20%;
 	font-weight: 50;
 	font-size: 100%;
 	padding-top: 4%;
