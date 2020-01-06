@@ -10,7 +10,7 @@ body{
 	text-align: center;
 }
 #myImg{
-	height: 60%;
+	height: 70%;
 	width: 	60%;
 	border-radius: 100%;
 }
@@ -20,25 +20,8 @@ body{
 	font-size: 150%;
 }
 #links{
-	text-align: left;
-	
 	font-weight: 50;
-	font-size: 150%;
-	
-}
-#LinkedIn{
-	text-decoration: underline;
-}
-#Github{
-	text-decoration: underline;
-}
-#Otherlinks{
-	text-align: left;
-	font-weight: 50;
-	font-size: 100%;
-
-}
-#underline{
+	font-size: 120%;
 	text-decoration: underline;
 }
 #icons{
@@ -56,7 +39,17 @@ body{
 	padding-top: 4%;
 	text-decoration: underline;
 }
-
+#updates{
+	font-weight: bold;
+}
+#note{
+	font-size:50%;
+	padding-bottom: 0%;
+	margin : 0px;
+}
+#note p{
+	margin: 0px;
+}
 hr {
 color: #123455;
 background-color: #123455;
@@ -67,4 +60,5 @@ margin: 0 0;
 a{
 	color: #3f403f;
 }
+
 
