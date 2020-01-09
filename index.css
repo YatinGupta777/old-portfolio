@@ -24,6 +24,10 @@ body{
 	font-size: 120%;
 	text-decoration: underline;
 }
+#links a{
+	margin: 2%;
+}
+
 #icons{
 	text-align: left;
 	padding-top: 2%;
